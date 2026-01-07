@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Snake & Ladder - Pro Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-wrapper">
+        <div class="board-container" id="board">
+            <svg class="overlay-svg" viewBox="0 0 600 600">
+                <line class="ladder" x1="450" y1="570" x2="330" y2="450" />
+                <line class="ladder" x1="30" y1="450" x2="90" y2="150" />
+                <line class="ladder" x1="150" y1="330" x2="210" y2="150" />
+                <line class="ladder" x1="570" y1="330" x2="570" y2="90" />
+
+                <path class="snake snake-red" d="M 510 30 C 650 150, 450 450, 570 570" />
+                <path class="snake snake-green" d="M 150 150 C 50 250, 350 450, 270 510" />
+                <path class="snake snake-red" d="M 150 270 Q 250 350, 210 510" />
+                <path class="snake snake-green" d="M 510 270 Q 400 350, 510 450" />
+            </svg>
+        </div>
+
+        <aside class="sidebar">
+            <div class="status-card">
+                <div id="dice-icon" class="dice-box">🎲</div>
+                <h2 id="current-player" style="margin: 0; color: #1e293b; font-size: 1.5rem;">Player 1</h2>
+                <p style="color: #64748b; margin-top: 5px;">Ready to Roll?</p>
+            </div>
+            <button class="btn-roll" id="roll-btn">Roll Dice</button>
+        </aside>
+    </div>
+
+
+</body>
+
+</html>
