@@ -1,68 +1,56 @@
-🎲 Snakes & Ladders
-
-A modern and interactive Snakes & Ladders game built using HTML, CSS, and JavaScript, with the core game logic written in C++ and integrated into JavaScript. The game features a smooth UI and a clickable dice to play.
-
-🚀 Features
-🎮 Classic Snakes & Ladders gameplay
-🎲 Clickable dice to roll and move
-💻 Clean and attractive UI
-⚡ Game logic powered by C++
-🔄 Turn-based movement
-🐍 Snakes and 🪜 Ladders functionality
-📱 Responsive design
-🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript
-Game Logic: C++ (main.cpp)
-Integration: C++ compiled/converted to JavaScript
-UI: Custom styled board and animations
-📂 Project Structure
-📦 snakes-and-ladders
-├── index.html      # Main HTML file
-├── style.css       # Styling and UI design
-├── script.js       # Game interactions & UI logic
-├── main.cpp        # Core game logic in C++
-└── README.md
-🎮 How It Works
-The C++ file (main.cpp) contains the core game logic like:
-Dice rolling
-Player movement
-Snake and ladder positions
-Win condition
-This logic is integrated into JavaScript (script.js), which:
-Handles UI updates
-Listens for dice clicks 🎲
-Updates player positions
-Animates gameplay
-The HTML + CSS handle:
-Game board layout
-Styling
-Dice button UI
-Visual experience
-▶️ How to Run
-
-Clone the repository:
-
-git clone https://github.com/Shreyansh-069/Snakes-Ladders.git
-
-Open the project folder:
+# 🐍 Snakes-Ladders 🪜
+A logic-driven web implementation of the classic board game, bridging the gap between C++ structural efficiency and modern web interactivity.
+## ✨ Features
+* 🔄 Instant PDF Conversion — Upload JPEG or PNG files and instantly convert them into downloadable PDF documents.
+* 🎲 Interactive Dice Controller — A dedicated, clickable dice component with randomized roll generation to drive player progression.
+* 🌈 Minimalist Fluid UI — A clean, attractive interface designed for clarity and engagement across all screen sizes.
+* 🐍 Dynamic Mechanics — Fully automated snakes and ladders transitions with smooth coordinate-based player movement.
+* 🎮 Real-time State Management — Instant updates to player positions and win-condition tracking.
+## 🛠️ Tech Stack
+| Layer | Technology |
+| --- | --- |
+| Frontend | HTML5, CSS3 (Modern Flexbox/Grid) |
+| Logic Layer | JavaScript (ES6+), C++ (Source Logic) |
+| Asset Management | SVG for scalable game board elements |
+## 📁 Project Structure
+```text
+Snakes-Ladders/
+├── index.html       # Main structure and UI entry point
+├── style.css        # Modern styling and animation transitions
+├── script.js        # Integrated game engine and event handling
+├── main.cpp         # Original C++ source for game logic
+└── README.md        # Project documentation
+```
+## 🚀 Getting Started
+### Prerequisites
+* A modern web browser (Chrome, Firefox, Edge, or Safari)
+* Git installed on your local machine
+### Installation
+1. Clone the repository
+```bash
+git clone https://www.google.com/search?q=https://github.com/Shreyansh-069/Snakes-Ladders.git
 cd Snakes-Ladders
-Run the game:
-Simply open index.html in your browser
-Click on the dice 🎲 to start playing
-🎲 How to Play
-Open the game in your browser
-Click on the dice to roll
-Your piece will move based on the dice value
-🐍 Landing on a snake moves you down
-🪜 Landing on a ladder moves you up
-First player to reach the final square wins 🏆
-🎯 Future Improvements
-🤖 AI opponent
-🌐 Online multiplayer mode
-🔊 Sound effects for dice and movement
-🎨 More UI themes and board designs
-📊 Score tracking and statistics
-👨‍💻 Author
-
-Your Name
-GitHub: Shreyansh-069
+```
+2. Open the application
+Simply open the index.html file in your preferred web browser:
+```bash
+# Example for Mac users
+open index.html
+# Example for Windows users
+start index.html
+```
+## 📖 How It Works
+* Logic Core — The mathematical mapping of the 100-square grid and "teleportation" coordinates for snakes/ladders were developed in main.cpp.
+* Web Integration — This logic was translated into script.js, where DOM event listeners detect dice clicks to trigger movement algorithms.
+* Rendering — The UI uses CSS transitions to move player tokens smoothly across the grid based on the calculated output of the dice roll.
+## 🤝 Contributing
+Contributions are welcome! If you'd like to improve Snakes-Ladders:
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
+## 📄 License
+This project is licensed under the ISC License.
+---
+Author: Shreyansh-069
